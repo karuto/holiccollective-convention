@@ -1,0 +1,70 @@
+
+/* ==========================================================================
+  High level containers
+  ========================================================================== */
+.container {
+  box-sizing: border-box;
+}
+.container--contents {
+  composes: container;
+  max-width: 960px;
+  margin: 2rem auto;
+  background: #fff;
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px -5px rgba(50,50,93,.12), 0 3px 4px -2px rgba(0,0,0,.08);
+  transition-duration: .5s;
+}
+
+
+
+/* ==========================================================================
+  Title area
+  ========================================================================== */
+.overlay {
+  background: rebeccapurple;
+  margin: 0 auto -8rem;
+  height: 16rem; /* actual height: 8rem */
+}
+.titles {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem;
+  color: #fff;
+}
+
+
+
+/* ==========================================================================
+  Headings
+  ========================================================================== */
+.heading {
+    margin: 0 0 1rem;
+}
+.heading--titles {
+  composes: heading;
+  padding: 0;
+}
+.subheading {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.subheading--titles {
+  composes: subheading;
+  font-size: 16px;
+}
+
+
+.randomizer {
+  margin: 32px auto;
+  text-align: center;
+}
+
+.button {
+  padding: 24px;
+}
+
+li {
+  list-style: none;
+}
