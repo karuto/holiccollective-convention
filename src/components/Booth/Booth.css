@@ -1,0 +1,36 @@
+.booth {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.booth__title {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.booth__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.booth__image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.booth__image:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .booth__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

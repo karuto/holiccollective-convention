@@ -1,28 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import Footer from "../Footer/Footer";
 import styles from "./Page.css";
-// import hero from '../../assets/a-war-of-whispers-bg.jpg';
+import Team from "../Team/Team";
+import Booth from "../Booth/Booth";
 
 function Page() {
-  const strings = {
+  const content = {
     headingGlobal: "Holic Collective",
-    subheadingGlobal: "Hello world",
-  };
-
-  const [sequence, setSequence] = useState([]);
-  const [lastSequence, setLastSequence] = useState("");
-
-  const generateRandomSequence = () => {
-    const players = ["blue", "red", "green", "yellow", "brown"];
-    let newSequence;
-
-    // To prevent having the same first player consecutively
-    do {
-      newSequence = [...players].sort(() => Math.random() - 0.5);
-    } while (newSequence[0] === (sequence.length > 0 ? sequence[0] : null));
-
-    setLastSequence(JSON.stringify(newSequence));
-    setSequence(newSequence);
+    subheadingGlobal:
+      "Your fandom deserves better than a plain sticker, and so do you",
+    description:
+      "We are a collective of artist friends united by our passion for crafting innovative fan art that go far beyond plain stickers.",
+    disclaimer:
+      "Holic Collective is a small, non-commercial passion project run by a close-knit group of artists. While we're flattered by the interest, we're currently at capacity and not accepting new members to our collective. Thank you for understanding!",
   };
 
   return (
@@ -30,23 +20,16 @@ function Page() {
       {/* <div className={styles.overlay} style={{backgroundImage: `url('dist/${hero}')`}}> */}
       <div className={styles.overlay}>
         <header className={styles.titles}>
-          <h1 className={styles["heading--titles"]}>{strings.headingGlobal}</h1>
+          <h1 className={styles["heading--titles"]}>{content.headingGlobal}</h1>
           <h3 className={styles["subheading--titles"]}>
-            {strings.subheadingGlobal}
+            {content.subheadingGlobal}
           </h3>
         </header>
       </div>
-      <div className={styles["container--contents"]}>
-        <div className={styles.randomizer}>
-          <button className={styles.button} onClick={generateRandomSequence}>
-            Generate Random Sequence
-          </button>
-          <ul>
-            {sequence.map((player, index) => (
-              <h2 key={index}>{player}</h2>
-            ))}
-          </ul>
-        </div>
+      <div className={styles.content}>
+        <p>{content.description}</p>
+        <Team disclaimer={content.disclaimer} />
+        <Booth />
       </div>
       <Footer />
     </div>

@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "./";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -252,6 +252,149 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"browserupgrad
 
 /***/ }),
 
+/***/ "./src/assets/avatar-abu.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/avatar-abu.jpg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/avatar-abu.jpg\");\n\n//# sourceURL=webpack:///./src/assets/avatar-abu.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/avatar-karuto.png":
+/*!**************************************!*\
+  !*** ./src/assets/avatar-karuto.png ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/avatar-karuto.png\");\n\n//# sourceURL=webpack:///./src/assets/avatar-karuto.png?");
+
+/***/ }),
+
+/***/ "./src/assets/avatar-mochuuu.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/avatar-mochuuu.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/avatar-mochuuu.jpg\");\n\n//# sourceURL=webpack:///./src/assets/avatar-mochuuu.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/avatar-renbaibai.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/avatar-renbaibai.jpg ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/avatar-renbaibai.jpg\");\n\n//# sourceURL=webpack:///./src/assets/avatar-renbaibai.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/booth/1.jpg":
+/*!********************************!*\
+  !*** ./src/assets/booth/1.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/1.jpg\");\n\n//# sourceURL=webpack:///./src/assets/booth/1.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/booth/2.jpg":
+/*!********************************!*\
+  !*** ./src/assets/booth/2.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/2.jpg\");\n\n//# sourceURL=webpack:///./src/assets/booth/2.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/booth/3.jpg":
+/*!********************************!*\
+  !*** ./src/assets/booth/3.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/3.jpg\");\n\n//# sourceURL=webpack:///./src/assets/booth/3.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/booth/4.jpg":
+/*!********************************!*\
+  !*** ./src/assets/booth/4.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/4.jpg\");\n\n//# sourceURL=webpack:///./src/assets/booth/4.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/booth/5.jpg":
+/*!********************************!*\
+  !*** ./src/assets/booth/5.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/5.jpg\");\n\n//# sourceURL=webpack:///./src/assets/booth/5.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/booth/6.jpg":
+/*!********************************!*\
+  !*** ./src/assets/booth/6.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/6.jpg\");\n\n//# sourceURL=webpack:///./src/assets/booth/6.jpg?");
+
+/***/ }),
+
+/***/ "./src/components/Booth/Booth.css":
+/*!****************************************!*\
+  !*** ./src/components/Booth/Booth.css ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"booth\":\"src-components-Booth-Booth__booth--14Bh4\",\"booth__title\":\"src-components-Booth-Booth__booth__title--3ATp_\",\"booth__grid\":\"src-components-Booth-Booth__booth__grid--36pQ7\",\"booth__image\":\"src-components-Booth-Booth__booth__image--1oHOj\"};\n\n//# sourceURL=webpack:///./src/components/Booth/Booth.css?");
+
+/***/ }),
+
+/***/ "./src/components/Booth/Booth.js":
+/*!***************************************!*\
+  !*** ./src/components/Booth/Booth.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Booth = __webpack_require__(/*! ./Booth.css */ \"./src/components/Booth/Booth.css\");\n\nvar _Booth2 = _interopRequireDefault(_Booth);\n\nvar _ = __webpack_require__(/*! ../../assets/booth/1.jpg */ \"./src/assets/booth/1.jpg\");\n\nvar _2 = _interopRequireDefault(_);\n\nvar _3 = __webpack_require__(/*! ../../assets/booth/2.jpg */ \"./src/assets/booth/2.jpg\");\n\nvar _4 = _interopRequireDefault(_3);\n\nvar _5 = __webpack_require__(/*! ../../assets/booth/3.jpg */ \"./src/assets/booth/3.jpg\");\n\nvar _6 = _interopRequireDefault(_5);\n\nvar _7 = __webpack_require__(/*! ../../assets/booth/4.jpg */ \"./src/assets/booth/4.jpg\");\n\nvar _8 = _interopRequireDefault(_7);\n\nvar _9 = __webpack_require__(/*! ../../assets/booth/5.jpg */ \"./src/assets/booth/5.jpg\");\n\nvar _10 = _interopRequireDefault(_9);\n\nvar _11 = __webpack_require__(/*! ../../assets/booth/6.jpg */ \"./src/assets/booth/6.jpg\");\n\nvar _12 = _interopRequireDefault(_11);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Booth() {\n  var content = {\n    title: \"Our Booth setup featuring merch with artist credits\",\n    images: [{ src: _2.default, alt: \"Booth photo 1\" }, { src: _4.default, alt: \"Booth photo 2\" }, { src: _6.default, alt: \"Booth photo 3\" }, { src: _8.default, alt: \"Booth photo 4\" }, { src: _10.default, alt: \"Booth photo 5\" }, { src: _12.default, alt: \"Booth photo 6\" }]\n  };\n\n  return _react2.default.createElement(\n    \"section\",\n    { className: _Booth2.default.booth },\n    _react2.default.createElement(\n      \"h2\",\n      { className: _Booth2.default.booth__title },\n      content.title\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Booth2.default.booth__grid },\n      content.images.map(function (image, index) {\n        return _react2.default.createElement(\"img\", {\n          key: index,\n          src: \"dist/\" + image.src,\n          alt: image.alt,\n          className: _Booth2.default.booth__image\n        });\n      })\n    )\n  );\n}\n\nexports.default = Booth;\n\n//# sourceURL=webpack:///./src/components/Booth/Booth.js?");
+
+/***/ }),
+
 /***/ "./src/components/Footer/Footer.css":
 /*!******************************************!*\
   !*** ./src/components/Footer/Footer.css ***!
@@ -282,7 +425,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"src-components-Page-Page__container--QOUG7\",\"container--contents\":\"src-components-Page-Page__container--contents--1j_Nj src-components-Page-Page__container--QOUG7\",\"overlay\":\"src-components-Page-Page__overlay--3js0U\",\"titles\":\"src-components-Page-Page__titles--3gpez\",\"heading\":\"src-components-Page-Page__heading--3AMzj\",\"heading--titles\":\"src-components-Page-Page__heading--titles--QYiBU src-components-Page-Page__heading--3AMzj\",\"subheading\":\"src-components-Page-Page__subheading--252zZ\",\"subheading--titles\":\"src-components-Page-Page__subheading--titles--32eSI src-components-Page-Page__subheading--252zZ\",\"randomizer\":\"src-components-Page-Page__randomizer--3S7mn\",\"button\":\"src-components-Page-Page__button--3E01d\"};\n\n//# sourceURL=webpack:///./src/components/Page/Page.css?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"src-components-Page-Page__container--QOUG7\",\"content\":\"src-components-Page-Page__content--rCsmc src-components-Page-Page__container--QOUG7\",\"overlay\":\"src-components-Page-Page__overlay--3js0U\",\"titles\":\"src-components-Page-Page__titles--3gpez\",\"heading\":\"src-components-Page-Page__heading--3AMzj\",\"heading--titles\":\"src-components-Page-Page__heading--titles--QYiBU src-components-Page-Page__heading--3AMzj\",\"subheading\":\"src-components-Page-Page__subheading--252zZ\",\"subheading--titles\":\"src-components-Page-Page__subheading--titles--32eSI src-components-Page-Page__subheading--252zZ\",\"team\":\"src-components-Page-Page__team--jYZp9\",\"team__title\":\"src-components-Page-Page__team__title--s-T1L\",\"team__grid\":\"src-components-Page-Page__team__grid--3n1m4\",\"team__member\":\"src-components-Page-Page__team__member--2KvYR\",\"team__avatar\":\"src-components-Page-Page__team__avatar--3r9rI\",\"team__name\":\"src-components-Page-Page__team__name--2r6Lf\",\"team__role\":\"src-components-Page-Page__team__role--P15Bl\"};\n\n//# sourceURL=webpack:///./src/components/Page/Page.css?");
 
 /***/ }),
 
@@ -294,7 +437,30 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Footer = __webpack_require__(/*! ../Footer/Footer */ \"./src/components/Footer/Footer.js\");\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nvar _Page = __webpack_require__(/*! ./Page.css */ \"./src/components/Page/Page.css\");\n\nvar _Page2 = _interopRequireDefault(_Page);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// import hero from '../../assets/a-war-of-whispers-bg.jpg';\n\nfunction Page() {\n  var strings = {\n    headingGlobal: \"Holic Collective\",\n    subheadingGlobal: \"Hello world\"\n  };\n\n  var _useState = (0, _react.useState)([]),\n      _useState2 = _slicedToArray(_useState, 2),\n      sequence = _useState2[0],\n      setSequence = _useState2[1];\n\n  var _useState3 = (0, _react.useState)(\"\"),\n      _useState4 = _slicedToArray(_useState3, 2),\n      lastSequence = _useState4[0],\n      setLastSequence = _useState4[1];\n\n  var generateRandomSequence = function generateRandomSequence() {\n    var players = [\"blue\", \"red\", \"green\", \"yellow\", \"brown\"];\n    var newSequence = void 0;\n\n    // To prevent having the same first player consecutively\n    do {\n      newSequence = [].concat(players).sort(function () {\n        return Math.random() - 0.5;\n      });\n    } while (newSequence[0] === (sequence.length > 0 ? sequence[0] : null));\n\n    setLastSequence(JSON.stringify(newSequence));\n    setSequence(newSequence);\n  };\n\n  return _react2.default.createElement(\n    \"div\",\n    { className: _Page2.default.container },\n    _react2.default.createElement(\n      \"div\",\n      { className: _Page2.default.overlay },\n      _react2.default.createElement(\n        \"header\",\n        { className: _Page2.default.titles },\n        _react2.default.createElement(\n          \"h1\",\n          { className: _Page2.default[\"heading--titles\"] },\n          strings.headingGlobal\n        ),\n        _react2.default.createElement(\n          \"h3\",\n          { className: _Page2.default[\"subheading--titles\"] },\n          strings.subheadingGlobal\n        )\n      )\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Page2.default[\"container--contents\"] },\n      _react2.default.createElement(\n        \"div\",\n        { className: _Page2.default.randomizer },\n        _react2.default.createElement(\n          \"button\",\n          { className: _Page2.default.button, onClick: generateRandomSequence },\n          \"Generate Random Sequence\"\n        ),\n        _react2.default.createElement(\n          \"ul\",\n          null,\n          sequence.map(function (player, index) {\n            return _react2.default.createElement(\n              \"h2\",\n              { key: index },\n              player\n            );\n          })\n        )\n      )\n    ),\n    _react2.default.createElement(_Footer2.default, null)\n  );\n}\n\nexports.default = Page;\n\n//# sourceURL=webpack:///./src/components/Page/Page.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Footer = __webpack_require__(/*! ../Footer/Footer */ \"./src/components/Footer/Footer.js\");\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nvar _Page = __webpack_require__(/*! ./Page.css */ \"./src/components/Page/Page.css\");\n\nvar _Page2 = _interopRequireDefault(_Page);\n\nvar _Team = __webpack_require__(/*! ../Team/Team */ \"./src/components/Team/Team.js\");\n\nvar _Team2 = _interopRequireDefault(_Team);\n\nvar _Booth = __webpack_require__(/*! ../Booth/Booth */ \"./src/components/Booth/Booth.js\");\n\nvar _Booth2 = _interopRequireDefault(_Booth);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Page() {\n  var content = {\n    headingGlobal: \"Holic Collective\",\n    subheadingGlobal: \"Your fandom deserves better than a plain sticker, and so do you\",\n    description: \"We are a collective of artist friends united by our passion for crafting innovative fan art that go far beyond plain stickers.\",\n    disclaimer: \"Holic Collective is a small, non-commercial passion project run by a close-knit group of artists. While we're flattered by the interest, we're currently at capacity and not accepting new members to our collective. Thank you for understanding!\"\n  };\n\n  return _react2.default.createElement(\n    \"div\",\n    { className: _Page2.default.container },\n    _react2.default.createElement(\n      \"div\",\n      { className: _Page2.default.overlay },\n      _react2.default.createElement(\n        \"header\",\n        { className: _Page2.default.titles },\n        _react2.default.createElement(\n          \"h1\",\n          { className: _Page2.default[\"heading--titles\"] },\n          content.headingGlobal\n        ),\n        _react2.default.createElement(\n          \"h3\",\n          { className: _Page2.default[\"subheading--titles\"] },\n          content.subheadingGlobal\n        )\n      )\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Page2.default.content },\n      _react2.default.createElement(\n        \"p\",\n        null,\n        content.description\n      ),\n      _react2.default.createElement(_Team2.default, { disclaimer: content.disclaimer }),\n      _react2.default.createElement(_Booth2.default, null)\n    ),\n    _react2.default.createElement(_Footer2.default, null)\n  );\n}\n\nexports.default = Page;\n\n//# sourceURL=webpack:///./src/components/Page/Page.js?");
+
+/***/ }),
+
+/***/ "./src/components/Team/Team.css":
+/*!**************************************!*\
+  !*** ./src/components/Team/Team.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"team\":\"src-components-Team-Team__team---dzlP\",\"team__title\":\"src-components-Team-Team__team__title--1afBR\",\"team__list\":\"src-components-Team-Team__team__list--143Q6\",\"team__member\":\"src-components-Team-Team__team__member--2gm9W\",\"team__avatar\":\"src-components-Team-Team__team__avatar--1cY0p\",\"team__info\":\"src-components-Team-Team__team__info--2-2UL\",\"team__name\":\"src-components-Team-Team__team__name--3YiwP\",\"team__role\":\"src-components-Team-Team__team__role--3BkPt\",\"team__description\":\"src-components-Team-Team__team__description--2RD-d\",\"team__disclaimer\":\"src-components-Team-Team__team__disclaimer--svAqD\",\"team__disclaimerText\":\"src-components-Team-Team__team__disclaimerText--UmTNo\"};\n\n//# sourceURL=webpack:///./src/components/Team/Team.css?");
+
+/***/ }),
+
+/***/ "./src/components/Team/Team.js":
+/*!*************************************!*\
+  !*** ./src/components/Team/Team.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Team = __webpack_require__(/*! ./Team.css */ \"./src/components/Team/Team.css\");\n\nvar _Team2 = _interopRequireDefault(_Team);\n\nvar _avatarKaruto = __webpack_require__(/*! ../../assets/avatar-karuto.png */ \"./src/assets/avatar-karuto.png\");\n\nvar _avatarKaruto2 = _interopRequireDefault(_avatarKaruto);\n\nvar _avatarAbu = __webpack_require__(/*! ../../assets/avatar-abu.jpg */ \"./src/assets/avatar-abu.jpg\");\n\nvar _avatarAbu2 = _interopRequireDefault(_avatarAbu);\n\nvar _avatarRenbaibai = __webpack_require__(/*! ../../assets/avatar-renbaibai.jpg */ \"./src/assets/avatar-renbaibai.jpg\");\n\nvar _avatarRenbaibai2 = _interopRequireDefault(_avatarRenbaibai);\n\nvar _avatarMochuuu = __webpack_require__(/*! ../../assets/avatar-mochuuu.jpg */ \"./src/assets/avatar-mochuuu.jpg\");\n\nvar _avatarMochuuu2 = _interopRequireDefault(_avatarMochuuu);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Team() {\n  var content = {\n    title: \"Meet the Team\",\n    members: [{\n      name: \"Karuto\",\n      role: \"Founder & Product Designer\",\n      avatar: _avatarKaruto2.default,\n      description: \"I work with my artist overlords to make sure their beautiful illustrations turn into eye-popping products! As a tech nerd, I love to fiddle and experiment with print and acrylic technologies. I also run the collective and will be the one vending at conventions!\"\n    }, {\n      name: \"Abu\",\n      role: \"Illustrator\",\n      avatar: _avatarAbu2.default,\n      description: \"Hi, I'm Abu! With nearly a decade of experience creating fanart and an obsession with Honkai Star Rail, I love gathering feedback from con attendees. I truly believe my art shines the brightest when experienced in person!\"\n    }, {\n      name: \"RenBaiBai\",\n      role: \"Illustrator & Product Designer\",\n      avatar: _avatarRenbaibai2.default,\n      description: \"Multi-fandom artist who loves brainstorming new forms to breathe life into my art. Your husbando can come in all shapes and forms!\"\n    }, {\n      name: \"Mochuuu\",\n      role: \"Illustrator\",\n      avatar: _avatarMochuuu2.default,\n      description: \"I'm in year-round low energy mode because I devoted all my energy to creating KaeLuc art.\"\n    }],\n    disclaimer: \"Holic Collective is a small, non-commercial passion project run by a close-knit group of artists. While we're flattered by the interest, we're currently at capacity and not accepting new members to our collective. Thank you for understanding!\"\n  };\n\n  return _react2.default.createElement(\n    \"section\",\n    { className: _Team2.default.team },\n    _react2.default.createElement(\n      \"h2\",\n      { className: _Team2.default.team__title },\n      content.title\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Team2.default.team__list },\n      content.members.map(function (member, index) {\n        return _react2.default.createElement(\n          \"div\",\n          { key: index, className: _Team2.default.team__member },\n          _react2.default.createElement(\"img\", {\n            src: \"dist/\" + member.avatar,\n            alt: member.name + \"'s avatar\",\n            className: _Team2.default.team__avatar\n          }),\n          _react2.default.createElement(\n            \"div\",\n            { className: _Team2.default.team__info },\n            _react2.default.createElement(\n              \"h3\",\n              { className: _Team2.default.team__name },\n              member.name\n            ),\n            _react2.default.createElement(\n              \"p\",\n              { className: _Team2.default.team__role },\n              member.role\n            ),\n            _react2.default.createElement(\n              \"p\",\n              { className: _Team2.default.team__description },\n              member.description\n            )\n          )\n        );\n      })\n    ),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Team2.default.team__disclaimer },\n      _react2.default.createElement(\n        \"p\",\n        { className: _Team2.default.team__disclaimerText },\n        content.disclaimer\n      )\n    )\n  );\n}\n\nexports.default = Team;\n\n//# sourceURL=webpack:///./src/components/Team/Team.js?");
 
 /***/ }),
 

@@ -1,22 +1,22 @@
-
 /* ==========================================================================
   High level containers
   ========================================================================== */
 .container {
   box-sizing: border-box;
 }
-.container--contents {
+.content {
   composes: container;
   max-width: 960px;
   margin: 2rem auto;
   background: #fff;
   display: flex;
+  flex-direction: column;
   border-radius: 4px;
-  box-shadow: 0 5px 20px -5px rgba(50,50,93,.12), 0 3px 4px -2px rgba(0,0,0,.08);
-  transition-duration: .5s;
+  box-shadow: 0 5px 20px -5px rgba(50, 50, 93, 0.12),
+    0 3px 4px -2px rgba(0, 0, 0, 0.08);
+  transition-duration: 0.5s;
+  padding: 2rem;
 }
-
-
 
 /* ==========================================================================
   Title area
@@ -33,13 +33,11 @@
   color: #fff;
 }
 
-
-
 /* ==========================================================================
   Headings
   ========================================================================== */
 .heading {
-    margin: 0 0 1rem;
+  margin: 0 0 1rem;
 }
 .heading--titles {
   composes: heading;
@@ -55,16 +53,50 @@
   font-size: 16px;
 }
 
+/* ==========================================================================
+  Team section
+  ========================================================================== */
+.team {
+  margin-top: 3rem;
+}
 
-.randomizer {
-  margin: 32px auto;
+.team__title {
+  font-size: 24px;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
-.button {
-  padding: 24px;
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-items: center;
 }
 
-li {
-  list-style: none;
+.team__member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team__name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.team__role {
+  font-size: 14px;
+  color: #666;
+  margin: 0.5rem 0 0;
 }

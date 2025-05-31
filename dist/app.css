@@ -10,24 +10,24 @@
   box-sizing: border-box;
 }
 
-
 /* ==========================================================================
   High level containers
   ========================================================================== */
 .src-components-Page-Page__container--QOUG7 {
   box-sizing: border-box;
 }
-.src-components-Page-Page__container--contents--1j_Nj {
+.src-components-Page-Page__content--rCsmc {
   max-width: 960px;
   margin: 2rem auto;
   background: #fff;
   display: flex;
+  flex-direction: column;
   border-radius: 4px;
-  box-shadow: 0 5px 20px -5px rgba(50,50,93,.12), 0 3px 4px -2px rgba(0,0,0,.08);
-  transition-duration: .5s;
+  box-shadow: 0 5px 20px -5px rgba(50, 50, 93, 0.12),
+    0 3px 4px -2px rgba(0, 0, 0, 0.08);
+  transition-duration: 0.5s;
+  padding: 2rem;
 }
-
-
 
 /* ==========================================================================
   Title area
@@ -44,13 +44,11 @@
   color: #fff;
 }
 
-
-
 /* ==========================================================================
   Headings
   ========================================================================== */
 .src-components-Page-Page__heading--3AMzj {
-    margin: 0 0 1rem;
+  margin: 0 0 1rem;
 }
 .src-components-Page-Page__heading--titles--QYiBU {
   padding: 0;
@@ -64,19 +62,191 @@
   font-size: 16px;
 }
 
+/* ==========================================================================
+  Team section
+  ========================================================================== */
+.src-components-Page-Page__team--jYZp9 {
+  margin-top: 3rem;
+}
 
-.src-components-Page-Page__randomizer--3S7mn {
-  margin: 32px auto;
+.src-components-Page-Page__team__title--s-T1L {
+  font-size: 24px;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
-.src-components-Page-Page__button--3E01d {
-  padding: 24px;
+.src-components-Page-Page__team__grid--3n1m4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-items: center;
 }
 
-li {
-  list-style: none;
+.src-components-Page-Page__team__member--2KvYR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
+.src-components-Page-Page__team__avatar--3r9rI {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.src-components-Page-Page__team__name--2r6Lf {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.src-components-Page-Page__team__role--P15Bl {
+  font-size: 14px;
+  color: #666;
+  margin: 0.5rem 0 0;
+}
+
+.src-components-Team-Team__team---dzlP {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.src-components-Team-Team__team__title--1afBR {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.src-components-Team-Team__team__list--143Q6 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.src-components-Team-Team__team__member--2gm9W {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.src-components-Team-Team__team__member--2gm9W:hover {
+  background-color: #f5f5f5;
+}
+
+.src-components-Team-Team__team__avatar--1cY0p {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.src-components-Team-Team__team__info--2-2UL {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.src-components-Team-Team__team__name--3YiwP {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.src-components-Team-Team__team__role--3BkPt {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.src-components-Team-Team__team__description--2RD-d {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+}
+
+.src-components-Team-Team__team__disclaimer--svAqD {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.src-components-Team-Team__team__disclaimerText--UmTNo {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .src-components-Team-Team__team__member--2gm9W {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .src-components-Team-Team__team__avatar--1cY0p {
+    width: 200px;
+    height: 200px;
+    max-width: 250px;
+  }
+
+  .src-components-Team-Team__team__info--2-2UL {
+    align-items: center;
+  }
+}
+
+.src-components-Booth-Booth__booth--14Bh4 {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.src-components-Booth-Booth__booth__title--3ATp_ {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.src-components-Booth-Booth__booth__grid--36pQ7 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.src-components-Booth-Booth__booth__image--1oHOj {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.src-components-Booth-Booth__booth__image--1oHOj:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .src-components-Booth-Booth__booth__grid--36pQ7 {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
