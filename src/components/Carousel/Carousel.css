@@ -1,9 +1,21 @@
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .carousel__container {
   position: relative;
   width: 100%;
   min-height: 60px;
   overflow: hidden;
   display: block;
+}
+
+.carousel__textWrapper {
+  position: relative;
+  overflow: hidden;
+  height: 60px;
+  width: 100%;
 }
 
 .carousel__text {
@@ -37,4 +49,28 @@
 
 .carousel__text__enter {
   transform: translateY(0);
+}
+
+.carousel__image {
+  margin: -30px auto 0;
+  display: flex;
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: var(--border-radius-big);
+  box-shadow: 0 20px 140px 0 rgba(255, 155, 84, 0.18),
+    0 0px 20px 0 rgba(255, 155, 84, 0.1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 768px) {
+  .subheading {
+    margin: 0 16px 32px;
+  }
+
+  .carousel__image {
+    max-width: 85%;
+    margin: -30px auto 0;
+  }
 }

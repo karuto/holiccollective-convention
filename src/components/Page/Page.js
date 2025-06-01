@@ -4,7 +4,6 @@ import styles from "./Page.css";
 import Team from "../Team/Team";
 import Booth from "../Booth/Booth";
 import Carousel from "../Carousel/Carousel";
-import boothImage from "../../assets/booth/1.jpg";
 
 function Page() {
   const content = {
@@ -23,14 +22,8 @@ function Page() {
         <div className={styles.headers__content}>
           <Carousel />
         </div>
-        <img
-          src={`dist/${boothImage}`}
-          alt="Booth display"
-          className={styles.titles__image}
-        />
       </header>
       <div className={styles.content}>
-        {/* <p>{content.description}</p> */}
         <Team />
         <Booth />
       </div>

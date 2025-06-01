@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./Team.css";
 import avatarKaruto from "../../assets/avatar-karuto.png";
 import avatarAbu from "../../assets/avatar-abu.jpg";
@@ -16,9 +16,11 @@ function Team() {
       {
         name: "Karuto",
         role: ["Organizer", "Product Designer"],
+        // role: ["Organizer"],
         avatar: avatarKaruto,
         description:
           "I work with my artist overlords to make sure their beautiful illustrations turn into eye-popping products! As a tech nerd, I love to fiddle and experiment with print and acrylic technologies. I also run the collective and",
+        // "I work with my artist overlords to make sure their eye-popping products got properly delivered to your doorsteps in the U.S.! I also run the collective and",
         highlight: "will be the one vending at conventions!",
       },
       {
@@ -45,12 +47,39 @@ function Team() {
     ],
   };
 
+  // Intersection Observer for fade-in
+  const memberRefs = useRef([]);
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(styles["team__member--visible"]);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+    memberRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+    return () => {
+      memberRefs.current.forEach((ref) => {
+        if (ref) observer.unobserve(ref);
+      });
+    };
+  }, []);
+
   return (
     <section className={styles.team}>
       <Heading subtitle={TEAM_SUBTITLE} title={content.title} />
       <div className={styles.team__list}>
         {content.members.map((member, index) => (
-          <div key={index} className={styles.team__member}>
+          <div
+            key={index}
+            className={styles.team__member}
+            ref={(el) => (memberRefs.current[index] = el)}
+          >
             <div className={styles.team__roleContainer}>
               {member.role &&
                 member.role.map((role, i) => (

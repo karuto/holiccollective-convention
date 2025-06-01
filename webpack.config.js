@@ -53,6 +53,19 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(mp4|webm|ogg|mp3|wav|m4a|aac|oga)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "media/",
+              publicPath: "./media/",
+            },
+          },
+        ],
+      },
     ],
   },
 };
