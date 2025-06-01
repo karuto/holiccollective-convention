@@ -5,6 +5,8 @@
   --font-size-heading: 64px;
   --font-size-subtitle: 32px;
   --font-size-body: 16px;
+  --font-size-annotation: 12px;
+  --border-radius-big: 16px;
   --color-brand: #cb4335;
   --color-secondary: #262541;
   --color-accent: #ff9b54;
@@ -16,12 +18,17 @@
 .container {
   box-sizing: border-box;
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--color-secondary) 0%, #6c3483 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-secondary) 0%,
+    #a93a62 50%,
+    var(--color-secondary) 75%,
+    #6c3483 100%
+  );
   padding: 2rem 0;
 }
 
 .content {
-  composes: container;
   max-width: 960px;
   margin: 0 auto;
   transition-duration: 0.5s;
@@ -35,30 +42,25 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 0;
-  color: #fff;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 600px;
 }
 
 .headers__content {
-  max-width: 75%;
   position: relative;
   z-index: 2;
-  text-align: left;
-  margin: 0 0 32px;
+  margin: 0;
 }
 
 .titles__image {
   max-width: 50vw;
+  margin: -30px auto 0;
+  display: flex;
+  align-items: center;
   height: 600px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: var(--border-radius-big);
   position: relative;
-  z-index: 1;
+  z-index: 0;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
 }
 
@@ -66,23 +68,34 @@
   Headings
   ========================================================================== */
 .heading {
-  margin: 0 0 1rem;
+  margin: 0 16px 32px;
   font-family: var(--font-family-brand);
+  font-size: var(--font-size-subtitle);
   text-transform: uppercase;
-}
-
-.heading--titles {
-  composes: heading;
+  margin: 0 0 32px;
   padding: 0;
+  color: #fff;
+  text-align: center;
 }
 
 .subheading {
-  margin: 0;
+  margin: 0 auto 32px;
+  max-width: 560px;
   padding: 0;
+  color: #fff;
+  text-align: center;
   font-weight: normal;
+  font-size: var(--font-size-body);
+  line-height: 1.5;
 }
 
-.subheading--titles {
-  composes: subheading;
-  font-size: 16px;
+@media (max-width: 768px) {
+  .subheading {
+    margin: 0 16px 32px;
+  }
+
+  .titles__image {
+    max-width: 85%;
+    margin: -30px auto 0;
+  }
 }

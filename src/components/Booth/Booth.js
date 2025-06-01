@@ -25,7 +25,7 @@ function Booth() {
     <section className={styles.booth}>
       <Heading
         subtitle="Featuring innovate merch with artist credits"
-        title="Booth setup"
+        title="Latest booth setup"
       />
       <div className={styles.booth__grid}>
         {content.images.map((image, index) => (

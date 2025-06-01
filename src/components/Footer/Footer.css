@@ -2,8 +2,9 @@
   Footer
   ========================================================================== */
 .footer {
-  color: #666;
-  font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
+  color: #fff;
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-annotation);
   max-width: 960px;
   margin: 4rem auto;
   text-align: center;

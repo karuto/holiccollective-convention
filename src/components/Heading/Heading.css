@@ -6,8 +6,11 @@
 }
 
 .heading__subtitle {
-  font-size: 12px;
+  font-family: var(--font-family-body);
+  font-size: 20px;
+  line-height: 1.5;
   text-transform: uppercase;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;

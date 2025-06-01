@@ -18,9 +18,8 @@ function Team() {
         role: ["Organizer", "Product Designer"],
         avatar: avatarKaruto,
         description:
-          "I work with my artist overlords to make sure their beautiful illustrations turn into eye-popping products! As a tech nerd, I love to fiddle and experiment with print and acrylic technologies.",
-        highlight:
-          "I also run the collective and will be the one vending at conventions!",
+          "I work with my artist overlords to make sure their beautiful illustrations turn into eye-popping products! As a tech nerd, I love to fiddle and experiment with print and acrylic technologies. I also run the collective and",
+        highlight: "will be the one vending at conventions!",
       },
       {
         name: "Abu",

@@ -26,7 +26,7 @@
   align-items: center;
   gap: 32px;
   padding: 64px 48px;
-  border-radius: 16px;
+  border-radius: var(--border-radius-big);
   max-width: 60%;
   transition: background-color 0.2s ease;
   background: #fff;
@@ -120,14 +120,14 @@
   background: var(--color-brand);
   color: #fff;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: var(--font-size-annotation);
   padding: 8px;
   border-radius: 0 16px 16px 0;
   margin: 0 0;
 }
 
 .team__label {
-  font-size: 12px;
+  font-size: var(--font-size-annotation);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,13 +143,25 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1.5rem;
+    gap: 16px;
+    max-width: 100%;
+    padding: 32px;
+  }
+
+  .team__member:nth-child(odd) {
+    transform: rotate(-3deg);
+    margin: 0;
+  }
+  .team__member:nth-child(even) {
+    transform: rotate(3deg);
+    margin: 0;
   }
 
   .team__avatar {
     width: 100px;
     height: 100px;
     max-width: 150px;
+    align-self: center;
   }
 
   .team__info {
