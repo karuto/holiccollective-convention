@@ -3,6 +3,8 @@ import Footer from "../Footer/Footer";
 import styles from "./Page.css";
 import Team from "../Team/Team";
 import Booth from "../Booth/Booth";
+import Carousel from "../Carousel/Carousel";
+import boothImage from "../../assets/booth/6.jpg";
 
 function Page() {
   const content = {
@@ -11,24 +13,31 @@ function Page() {
       "Your fandom deserves better than a plain sticker, and so do you",
     description:
       "We are a collective of artist friends united by our passion for crafting innovative fan art that go far beyond plain stickers.",
-    disclaimer:
-      "Holic Collective is a small, non-commercial passion project run by a close-knit group of artists. While we're flattered by the interest, we're currently at capacity and not accepting new members to our collective. Thank you for understanding!",
   };
 
   return (
     <div className={styles.container}>
-      {/* <div className={styles.overlay} style={{backgroundImage: `url('dist/${hero}')`}}> */}
       <div className={styles.overlay}>
-        <header className={styles.titles}>
-          <h1 className={styles["heading--titles"]}>{content.headingGlobal}</h1>
-          <h3 className={styles["subheading--titles"]}>
-            {content.subheadingGlobal}
-          </h3>
+        <header className={styles.header}>
+          <div className={styles.headers__content}>
+            <h1 className={styles["heading--titles"]}>
+              {content.headingGlobal}
+            </h1>
+            <Carousel />
+            <h3 className={styles["subheading--titles"]}>
+              {content.description}
+            </h3>
+          </div>
+          <img
+            src={`dist/${boothImage}`}
+            alt="Booth display"
+            className={styles.titles__image}
+          />
         </header>
       </div>
       <div className={styles.content}>
-        <p>{content.description}</p>
-        <Team disclaimer={content.disclaimer} />
+        {/* <p>{content.description}</p> */}
+        <Team />
         <Booth />
       </div>
       <Footer />

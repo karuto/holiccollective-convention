@@ -6,10 +6,11 @@ import booth3 from "../../assets/booth/3.jpg";
 import booth4 from "../../assets/booth/4.jpg";
 import booth5 from "../../assets/booth/5.jpg";
 import booth6 from "../../assets/booth/6.jpg";
+import Heading from "../Heading/Heading";
 
 function Booth() {
   const content = {
-    title: "Our Booth setup featuring merch with artist credits",
+    title: "Booth setup featuring innovate merch with artist credits",
     images: [
       { src: booth1, alt: "Booth photo 1" },
       { src: booth2, alt: "Booth photo 2" },
@@ -22,7 +23,10 @@ function Booth() {
 
   return (
     <section className={styles.booth}>
-      <h2 className={styles.booth__title}>{content.title}</h2>
+      <Heading
+        subtitle="Featuring innovate merch with artist credits"
+        title="Booth setup"
+      />
       <div className={styles.booth__grid}>
         {content.images.map((image, index) => (
           <img

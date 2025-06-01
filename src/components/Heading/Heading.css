@@ -1,0 +1,28 @@
+.heading__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.heading__subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 16px 0 32px;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.heading__title {
+  font-family: var(--font-family-brand);
+  font-size: var(--font-size-heading);
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 32px;
+  text-align: center;
+}
