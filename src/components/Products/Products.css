@@ -3,3 +3,37 @@
   margin: 64px 0;
   padding: 0 0 32px 0;
 }
+
+.products__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.product__block {
+  background: #fff;
+  box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.18), 0 1.5px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius-big, 16px);
+  padding: 48px 40px;
+  max-width: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background-color 0.2s ease;
+}
+
+.product__title {
+  font-size: 2rem;
+  font-family: var(--font-family-brand);
+  margin: 0 0 16px 0;
+  color: #222;
+}
+
+.product__desc {
+  font-size: 1rem;
+  color: #444;
+  margin: 0;
+}
