@@ -91,22 +91,6 @@
   margin: 0;
 }
 
-.team__disclaimer {
-  margin-top: 4rem;
-  padding: 2rem;
-  color: #fff;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.team__disclaimerText {
-  font-size: 14px;
-  line-height: 1.6;
-  margin: 0;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 .team__highlight {
   color: white;
   background-color: var(--color-brand);

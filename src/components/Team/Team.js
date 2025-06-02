@@ -8,8 +8,6 @@ import Heading from "../Heading/Heading";
 
 function Team() {
   const TEAM_SUBTITLE = "Our collective";
-  const disclaimer =
-    "Holic Collective is a small, non-commercial passion project run by a close-knit group of artists. While we're flattered by the interest, we're currently at capacity and not accepting new members to our collective. Thank you for understanding!";
   const content = {
     title: "Meet the Fam",
     members: [
@@ -21,7 +19,7 @@ function Team() {
         description:
           "I work with my artist overlords to make sure their beautiful illustrations turn into eye-popping products! As a tech nerd, I love to fiddle and experiment with print and acrylic technologies. I also run the collective and",
         // "I work with my artist overlords to make sure their eye-popping products got properly delivered to your doorsteps in the U.S.! I also run the collective and",
-        highlight: "will be the one vending at conventions!",
+        highlight: "I will be the one vending at conventions!",
       },
       {
         name: "Abu",
@@ -108,9 +106,6 @@ function Team() {
             </div>
           </div>
         ))}
-      </div>
-      <div className={styles.team__disclaimer}>
-        <p className={styles.team__disclaimerText}>{disclaimer}</p>
       </div>
     </section>
   );

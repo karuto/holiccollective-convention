@@ -113,6 +113,21 @@
   }
 }
 
+.src-components-Page-Page__disclaimerSection--37MKX {
+  margin: 48px auto 0 auto;
+  padding: 32px;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.src-components-Page-Page__disclaimerText--3Zy9_ {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+
 .src-components-Team-Team__team---dzlP {
   margin: 0;
   width: 100%;
@@ -204,22 +219,6 @@
   line-height: 1.6;
   color: #444;
   margin: 0;
-}
-
-.src-components-Team-Team__team__disclaimer--svAqD {
-  margin-top: 4rem;
-  padding: 2rem;
-  color: #fff;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.src-components-Team-Team__team__disclaimerText--UmTNo {
-  font-size: 14px;
-  line-height: 1.6;
-  margin: 0;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 .src-components-Team-Team__team__highlight--3BNEd {
@@ -360,6 +359,12 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+}
+
+.src-components-Products-Products__products--3oOQh {
+  width: 100%;
+  margin: 64px 0;
+  padding: 0 0 32px 0;
 }
 
 .src-components-Carousel-Carousel__carousel--2UppO {
