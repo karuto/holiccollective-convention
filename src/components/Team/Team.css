@@ -32,7 +32,7 @@
     opacity 2s cubic-bezier(0.22, 1, 0.36, 1),
     transform 2s cubic-bezier(0.22, 1, 0.36, 1);
   background: #fff;
-  box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.18), 0 1.5px 8px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: var(--box-shadow-big);
   position: relative;
   opacity: 0;
   transform: translateY(40px);

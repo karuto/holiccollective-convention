@@ -432,6 +432,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/assets/products/hc-0r.png":
+/*!***************************************!*\
+  !*** ./src/assets/products/hc-0r.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/hc-0r.png\");\n\n//# sourceURL=webpack:///./src/assets/products/hc-0r.png?");
+
+/***/ }),
+
+/***/ "./src/assets/products/hc-1w.png":
+/*!***************************************!*\
+  !*** ./src/assets/products/hc-1w.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/hc-1w.png\");\n\n//# sourceURL=webpack:///./src/assets/products/hc-1w.png?");
+
+/***/ }),
+
+/***/ "./src/assets/products/hc-2g.png":
+/*!***************************************!*\
+  !*** ./src/assets/products/hc-2g.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/hc-2g.png\");\n\n//# sourceURL=webpack:///./src/assets/products/hc-2g.png?");
+
+/***/ }),
+
+/***/ "./src/assets/products/hc-3d.png":
+/*!***************************************!*\
+  !*** ./src/assets/products/hc-3d.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/hc-3d.png\");\n\n//# sourceURL=webpack:///./src/assets/products/hc-3d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/products/hc-4h.png":
+/*!***************************************!*\
+  !*** ./src/assets/products/hc-4h.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/hc-4h.png\");\n\n//# sourceURL=webpack:///./src/assets/products/hc-4h.png?");
+
+/***/ }),
+
 /***/ "./src/components/Booth/Booth.css":
 /*!****************************************!*\
   !*** ./src/components/Booth/Booth.css ***!
@@ -451,7 +511,7 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"booth\":\"src
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Booth = __webpack_require__(/*! ./Booth.css */ \"./src/components/Booth/Booth.css\");\n\nvar _Booth2 = _interopRequireDefault(_Booth);\n\nvar _ = __webpack_require__(/*! ../../assets/booth/1.jpg */ \"./src/assets/booth/1.jpg\");\n\nvar _2 = _interopRequireDefault(_);\n\nvar _3 = __webpack_require__(/*! ../../assets/booth/2.jpg */ \"./src/assets/booth/2.jpg\");\n\nvar _4 = _interopRequireDefault(_3);\n\nvar _5 = __webpack_require__(/*! ../../assets/booth/3.jpg */ \"./src/assets/booth/3.jpg\");\n\nvar _6 = _interopRequireDefault(_5);\n\nvar _7 = __webpack_require__(/*! ../../assets/booth/4.jpg */ \"./src/assets/booth/4.jpg\");\n\nvar _8 = _interopRequireDefault(_7);\n\nvar _9 = __webpack_require__(/*! ../../assets/booth/5.jpg */ \"./src/assets/booth/5.jpg\");\n\nvar _10 = _interopRequireDefault(_9);\n\nvar _11 = __webpack_require__(/*! ../../assets/booth/6.jpg */ \"./src/assets/booth/6.jpg\");\n\nvar _12 = _interopRequireDefault(_11);\n\nvar _Heading = __webpack_require__(/*! ../Heading/Heading */ \"./src/components/Heading/Heading.js\");\n\nvar _Heading2 = _interopRequireDefault(_Heading);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Booth() {\n  var content = {\n    title: \"Booth setup featuring innovate merch with artist credits\",\n    images: [{ src: _2.default, alt: \"Booth photo 1\" }, { src: _4.default, alt: \"Booth photo 2\" }, { src: _6.default, alt: \"Booth photo 3\" }, { src: _8.default, alt: \"Booth photo 4\" }, { src: _10.default, alt: \"Booth photo 5\" }, { src: _12.default, alt: \"Booth photo 6\" }]\n  };\n\n  return _react2.default.createElement(\n    \"section\",\n    { className: _Booth2.default.booth },\n    _react2.default.createElement(_Heading2.default, {\n      subtitle: \"Featuring innovate merch with artist credits\",\n      title: \"Latest booth setup\"\n    }),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Booth2.default.booth__grid },\n      content.images.map(function (image, index) {\n        return _react2.default.createElement(\"img\", {\n          key: index,\n          src: \"dist/\" + image.src,\n          alt: image.alt,\n          className: _Booth2.default.booth__image\n        });\n      })\n    )\n  );\n}\n\nexports.default = Booth;\n\n//# sourceURL=webpack:///./src/components/Booth/Booth.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Booth = __webpack_require__(/*! ./Booth.css */ \"./src/components/Booth/Booth.css\");\n\nvar _Booth2 = _interopRequireDefault(_Booth);\n\nvar _ = __webpack_require__(/*! ../../assets/booth/1.jpg */ \"./src/assets/booth/1.jpg\");\n\nvar _2 = _interopRequireDefault(_);\n\nvar _3 = __webpack_require__(/*! ../../assets/booth/2.jpg */ \"./src/assets/booth/2.jpg\");\n\nvar _4 = _interopRequireDefault(_3);\n\nvar _5 = __webpack_require__(/*! ../../assets/booth/3.jpg */ \"./src/assets/booth/3.jpg\");\n\nvar _6 = _interopRequireDefault(_5);\n\nvar _7 = __webpack_require__(/*! ../../assets/booth/4.jpg */ \"./src/assets/booth/4.jpg\");\n\nvar _8 = _interopRequireDefault(_7);\n\nvar _9 = __webpack_require__(/*! ../../assets/booth/5.jpg */ \"./src/assets/booth/5.jpg\");\n\nvar _10 = _interopRequireDefault(_9);\n\nvar _11 = __webpack_require__(/*! ../../assets/booth/6.jpg */ \"./src/assets/booth/6.jpg\");\n\nvar _12 = _interopRequireDefault(_11);\n\nvar _Heading = __webpack_require__(/*! ../Heading/Heading */ \"./src/components/Heading/Heading.js\");\n\nvar _Heading2 = _interopRequireDefault(_Heading);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Booth() {\n  var content = {\n    title: \"Booth setup featuring innovate merch with artist credits\",\n    images: [{ src: _2.default, alt: \"Booth photo 1\" }, { src: _4.default, alt: \"Booth photo 2\" }, { src: _6.default, alt: \"Booth photo 3\" }, { src: _8.default, alt: \"Booth photo 4\" }, { src: _10.default, alt: \"Booth photo 5\" }, { src: _12.default, alt: \"Booth photo 6\" }]\n  };\n\n  return _react2.default.createElement(\n    \"section\",\n    { className: _Booth2.default.booth },\n    _react2.default.createElement(_Heading2.default, { subtitle: \"Our conventions\", title: \"booth setup\" }),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Booth2.default.booth__grid },\n      content.images.map(function (image, index) {\n        return _react2.default.createElement(\"img\", {\n          key: index,\n          src: \"dist/\" + image.src,\n          alt: image.alt,\n          className: _Booth2.default.booth__image\n        });\n      })\n    )\n  );\n}\n\nexports.default = Booth;\n\n//# sourceURL=webpack:///./src/components/Booth/Booth.js?");
 
 /***/ }),
 
@@ -554,7 +614,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"products\":\"src-components-Products-Products__products--3oOQh\",\"products__list\":\"src-components-Products-Products__products__list--3zPdd\",\"product__block\":\"src-components-Products-Products__product__block--5yOPv\",\"product__title\":\"src-components-Products-Products__product__title--w4LNj\",\"product__desc\":\"src-components-Products-Products__product__desc--1BGgo\"};\n\n//# sourceURL=webpack:///./src/components/Products/Products.css?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"products\":\"src-components-Products-Products__products--3oOQh\",\"products__grid\":\"src-components-Products-Products__products__grid--iApKq\",\"product\":\"src-components-Products-Products__product--1XJQV\"};\n\n//# sourceURL=webpack:///./src/components/Products/Products.css?");
 
 /***/ }),
 
@@ -566,7 +626,7 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"products\":\"
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Products = __webpack_require__(/*! ./Products.css */ \"./src/components/Products/Products.css\");\n\nvar _Products2 = _interopRequireDefault(_Products);\n\nvar _Heading = __webpack_require__(/*! ../Heading/Heading */ \"./src/components/Heading/Heading.js\");\n\nvar _Heading2 = _interopRequireDefault(_Heading);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar products = [{\n  title: \"Rotating diorama standees\",\n  description: \"A unique standee that rotates to reveal different scenes or characters.\"\n}, {\n  title: \"Water activated prints\",\n  description: \"Watch the art transform when you add water—like magic!\"\n}, {\n  title: \"Quicksand liquid acrylics\",\n  description: \"Acrylic pieces with mesmerizing quicksand liquid movement inside.\"\n}, {\n  title: \"Double reflection badges\",\n  description: \"Badges that show two different images depending on the angle.\"\n}, {\n  title: \"Holographic effect ticket stubs\",\n  description: \"Ticket stubs with a dazzling holographic finish for collectors.\"\n}];\n\nfunction Products() {\n  return _react2.default.createElement(\n    \"section\",\n    { className: _Products2.default.products },\n    _react2.default.createElement(_Heading2.default, { subtitle: \"Explore our unique merch\", title: \"Creations\" }),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Products2.default.products__list },\n      products.map(function (product, idx) {\n        return _react2.default.createElement(\n          \"div\",\n          { key: idx, className: _Products2.default.product__block },\n          _react2.default.createElement(\n            \"h3\",\n            { className: _Products2.default.product__title },\n            product.title\n          ),\n          _react2.default.createElement(\n            \"p\",\n            { className: _Products2.default.product__desc },\n            product.description\n          )\n        );\n      })\n    )\n  );\n}\n\nexports.default = Products;\n\n//# sourceURL=webpack:///./src/components/Products/Products.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Products = __webpack_require__(/*! ./Products.css */ \"./src/components/Products/Products.css\");\n\nvar _Products2 = _interopRequireDefault(_Products);\n\nvar _Heading = __webpack_require__(/*! ../Heading/Heading */ \"./src/components/Heading/Heading.js\");\n\nvar _Heading2 = _interopRequireDefault(_Heading);\n\nvar _hc0r = __webpack_require__(/*! ../../assets/products/hc-0r.png */ \"./src/assets/products/hc-0r.png\");\n\nvar _hc0r2 = _interopRequireDefault(_hc0r);\n\nvar _hc1w = __webpack_require__(/*! ../../assets/products/hc-1w.png */ \"./src/assets/products/hc-1w.png\");\n\nvar _hc1w2 = _interopRequireDefault(_hc1w);\n\nvar _hc2g = __webpack_require__(/*! ../../assets/products/hc-2g.png */ \"./src/assets/products/hc-2g.png\");\n\nvar _hc2g2 = _interopRequireDefault(_hc2g);\n\nvar _hc3d = __webpack_require__(/*! ../../assets/products/hc-3d.png */ \"./src/assets/products/hc-3d.png\");\n\nvar _hc3d2 = _interopRequireDefault(_hc3d);\n\nvar _hc4h = __webpack_require__(/*! ../../assets/products/hc-4h.png */ \"./src/assets/products/hc-4h.png\");\n\nvar _hc4h2 = _interopRequireDefault(_hc4h);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar productImages = [_hc0r2.default, _hc1w2.default, _hc2g2.default, _hc3d2.default, _hc4h2.default];\n\nfunction Products() {\n  return _react2.default.createElement(\n    \"section\",\n    { className: _Products2.default.products },\n    _react2.default.createElement(_Heading2.default, { subtitle: \"Our creations\", title: \"Products\" }),\n    _react2.default.createElement(\n      \"div\",\n      { className: _Products2.default.products__grid },\n      productImages.map(function (img, idx) {\n        return _react2.default.createElement(\"img\", {\n          key: idx,\n          src: \"dist/\" + img,\n          alt: \"Product photo\",\n          className: _Products2.default.product\n        });\n      })\n    )\n  );\n}\n\nexports.default = Products;\n\n//# sourceURL=webpack:///./src/components/Products/Products.js?");
 
 /***/ }),
 

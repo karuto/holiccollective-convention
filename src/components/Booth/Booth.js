@@ -23,10 +23,7 @@ function Booth() {
 
   return (
     <section className={styles.booth}>
-      <Heading
-        subtitle="Featuring innovate merch with artist credits"
-        title="Latest booth setup"
-      />
+      <Heading subtitle="Our conventions" title="booth setup" />
       <div className={styles.booth__grid}>
         {content.images.map((image, index) => (
           <img
