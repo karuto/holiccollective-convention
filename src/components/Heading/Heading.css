@@ -22,10 +22,11 @@
 }
 
 .heading__title {
-  font-family: var(--font-family-brand);
+  font-weight: 900;
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-heading);
   color: #fff;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 16px;
   text-align: center;
 }

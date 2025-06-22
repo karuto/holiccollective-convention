@@ -13,6 +13,7 @@
 
 :root {
   --font-family-brand: "Raleway", sans-serif;
+  --font-family-serif: "Playfair Display", serif;
   --font-family-body: Roboto, "Hiragino Sans GB", "冬青黑", "Microsoft YaHei",
     "微软雅黑", SimSun, "宋体", sans-serif;
   --font-size-heading: 64px;
@@ -84,7 +85,7 @@
   ========================================================================== */
 .src-components-Page-Page__heading--3AMzj {
   margin: 0 16px 32px;
-  font-family: var(--font-family-brand);
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-subtitle);
   text-transform: uppercase;
   margin: 0 0 32px;
@@ -318,11 +319,12 @@
 }
 
 .src-components-Heading-Heading__heading__title--1CGuI {
-  font-family: var(--font-family-brand);
+  font-weight: 900;
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-heading);
   color: #fff;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 16px;
   text-align: center;
 }
 
@@ -441,7 +443,8 @@
   padding: 0;
   text-align: center;
   color: #fff;
-  font-family: var(--font-family-brand);
+  font-weight: 900;
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-heading);
   text-transform: uppercase;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);

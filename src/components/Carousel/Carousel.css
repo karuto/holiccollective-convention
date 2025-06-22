@@ -27,7 +27,8 @@
   padding: 0;
   text-align: center;
   color: #fff;
-  font-family: var(--font-family-brand);
+  font-weight: 900;
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-heading);
   text-transform: uppercase;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
