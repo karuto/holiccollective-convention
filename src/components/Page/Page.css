@@ -14,8 +14,8 @@
   --color-secondary: #262541;
   --color-accent: #ff9b54;
   /* WooCommerce references only, not used in the project */
-  --color-woocommerce-primary: #a93a62;
-  --color-woocommerce-hover: #752a45;
+  /* --color-woocommerce-primary: #a93a62;
+  --color-woocommerce-hover: #752a45; */
 }
 
 /* ==========================================================================
