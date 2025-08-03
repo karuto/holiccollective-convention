@@ -14,8 +14,7 @@ function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [nextIndex, setNextIndex] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
-  const currentTextRef = useRef(null);
-  const videoRef = useRef(null);
+  const [videoReady, setVideoReady] = useState(false);
 
   const customTransitionStyles = {
     transition: isAnimating
@@ -24,6 +23,8 @@ function Carousel() {
   };
 
   useEffect(() => {
+    if (!videoReady) return;
+
     let timeoutId;
     const interval = setInterval(() => {
       setIsAnimating(true);
@@ -38,14 +39,21 @@ function Carousel() {
       clearInterval(interval);
       clearTimeout(timeoutId);
     };
-  }, [nextIndex, carouselContent.length]);
+  }, [nextIndex, carouselContent.length, videoReady]);
+
+  const handleVideoCanPlay = () => {
+    setVideoReady(true);
+  };
+
+  const handleVideoPlay = () => {
+    setVideoReady(true);
+  };
 
   return (
     <div className={styles.carousel}>
       <div className={styles.carousel__container}>
         <div className={styles.carousel__textWrapper}>
           <div
-            ref={currentTextRef}
             className={
               styles.carousel__text +
               " " +
@@ -69,13 +77,14 @@ function Carousel() {
           </div>
         </div>
         <video
-          ref={videoRef}
           className={styles.carousel__image}
           src={`dist/${holicReel}`}
           autoPlay
           loop
           muted
           playsInline
+          onCanPlay={handleVideoCanPlay}
+          onPlay={handleVideoPlay}
         />
       </div>
     </div>
