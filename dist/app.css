@@ -457,11 +457,15 @@
 .src-components-Carousel-Carousel__carousel--2UppO {
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .src-components-Carousel-Carousel__carousel__container--5Hb6J {
   position: relative;
   width: 100%;
+  max-width: 700px;
   min-height: 60px;
   overflow: hidden;
   display: block;
@@ -470,7 +474,8 @@
 .src-components-Carousel-Carousel__carousel__textWrapper--3uBGn {
   position: relative;
   overflow: hidden;
-  height: 60px;
+  /* On desktop, the font size (and line height) is 64px. We need to render 2 lines always. */
+  height: 128px;
   width: 100%;
 }
 
@@ -487,7 +492,7 @@
   font-family: var(--font-family-serif);
   font-size: var(--font-size-heading);
   text-transform: uppercase;
-  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   white-space: normal;
   word-break: break-word;
 }
@@ -529,6 +534,18 @@
   .src-components-Carousel-Carousel__carousel__image--2MWoK {
     max-width: 85%;
     margin: -40px auto 0;
+  }
+
+  .src-components-Carousel-Carousel__carousel__textWrapper--3uBGn {
+    /* On mobile, the font size (and line height) is 32px. We need to render 2 lines always. */
+    height: 64px;
+    width: 100%;
+  }
+
+  .src-components-Carousel-Carousel__carousel__text--3d5O0 {
+    font-size: 32px;
+    line-height: 32px;
+    height: 64px;
   }
 }
 

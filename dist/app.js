@@ -360,63 +360,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./src/assets/carousel/v1.mp4":
-/*!************************************!*\
-  !*** ./src/assets/carousel/v1.mp4 ***!
-  \************************************/
+/***/ "./src/assets/carousel/holic-reel.mp4":
+/*!********************************************!*\
+  !*** ./src/assets/carousel/holic-reel.mp4 ***!
+  \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./media/v1.mp4\");\n\n//# sourceURL=webpack:///./src/assets/carousel/v1.mp4?");
-
-/***/ }),
-
-/***/ "./src/assets/carousel/v2.mp4":
-/*!************************************!*\
-  !*** ./src/assets/carousel/v2.mp4 ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./media/v2.mp4\");\n\n//# sourceURL=webpack:///./src/assets/carousel/v2.mp4?");
-
-/***/ }),
-
-/***/ "./src/assets/carousel/v3.mp4":
-/*!************************************!*\
-  !*** ./src/assets/carousel/v3.mp4 ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./media/v3.mp4\");\n\n//# sourceURL=webpack:///./src/assets/carousel/v3.mp4?");
-
-/***/ }),
-
-/***/ "./src/assets/carousel/v4.mp4":
-/*!************************************!*\
-  !*** ./src/assets/carousel/v4.mp4 ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./media/v4.mp4\");\n\n//# sourceURL=webpack:///./src/assets/carousel/v4.mp4?");
-
-/***/ }),
-
-/***/ "./src/assets/carousel/v5.mp4":
-/*!************************************!*\
-  !*** ./src/assets/carousel/v5.mp4 ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./media/v5.mp4\");\n\n//# sourceURL=webpack:///./src/assets/carousel/v5.mp4?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./media/holic-reel.mp4\");\n\n//# sourceURL=webpack:///./src/assets/carousel/holic-reel.mp4?");
 
 /***/ }),
 
@@ -522,7 +474,7 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"carousel\":\"
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Carousel = __webpack_require__(/*! ./Carousel.css */ \"./src/components/Carousel/Carousel.css\");\n\nvar _Carousel2 = _interopRequireDefault(_Carousel);\n\nvar _v = __webpack_require__(/*! ../../assets/carousel/v1.mp4 */ \"./src/assets/carousel/v1.mp4\");\n\nvar _v2 = _interopRequireDefault(_v);\n\nvar _v3 = __webpack_require__(/*! ../../assets/carousel/v2.mp4 */ \"./src/assets/carousel/v2.mp4\");\n\nvar _v4 = _interopRequireDefault(_v3);\n\nvar _v5 = __webpack_require__(/*! ../../assets/carousel/v3.mp4 */ \"./src/assets/carousel/v3.mp4\");\n\nvar _v6 = _interopRequireDefault(_v5);\n\nvar _v7 = __webpack_require__(/*! ../../assets/carousel/v4.mp4 */ \"./src/assets/carousel/v4.mp4\");\n\nvar _v8 = _interopRequireDefault(_v7);\n\nvar _v9 = __webpack_require__(/*! ../../assets/carousel/v5.mp4 */ \"./src/assets/carousel/v5.mp4\");\n\nvar _v10 = _interopRequireDefault(_v9);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Carousel() {\n  var carouselContent = [\"Quicksand liquid acrylics\", \"Lenticular ticket stubs\", \"Rotating diorama standees\", \"Water activated prints\"];\n  // const carouselMedia = [v1, v2, v3, v5, v4];\n  var carouselMedia = [_v2.default, _v4.default, _v6.default, _v10.default];\n\n  var _useState = (0, _react.useState)(0),\n      _useState2 = _slicedToArray(_useState, 2),\n      currentIndex = _useState2[0],\n      setCurrentIndex = _useState2[1];\n\n  var _useState3 = (0, _react.useState)(1),\n      _useState4 = _slicedToArray(_useState3, 2),\n      nextIndex = _useState4[0],\n      setNextIndex = _useState4[1];\n\n  var _useState5 = (0, _react.useState)(false),\n      _useState6 = _slicedToArray(_useState5, 2),\n      isAnimating = _useState6[0],\n      setIsAnimating = _useState6[1];\n\n  var _useState7 = (0, _react.useState)(undefined),\n      _useState8 = _slicedToArray(_useState7, 2),\n      textHeight = _useState8[0],\n      setTextHeight = _useState8[1];\n\n  var currentTextRef = (0, _react.useRef)(null);\n\n  var customTransitionStyles = {\n    transition: isAnimating ? \"transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)\" : \"none\"\n  };\n\n  (0, _react.useEffect)(function () {\n    var timeoutId = void 0;\n    var interval = setInterval(function () {\n      setIsAnimating(true);\n      timeoutId = setTimeout(function () {\n        setCurrentIndex(nextIndex);\n        setNextIndex((nextIndex + 1) % carouselContent.length);\n        setIsAnimating(false);\n      }, 500);\n    }, 3000);\n\n    return function () {\n      clearInterval(interval);\n      clearTimeout(timeoutId);\n    };\n  }, [nextIndex, carouselContent.length]);\n\n  (0, _react.useEffect)(function () {\n    if (currentTextRef.current) {\n      setTextHeight(currentTextRef.current.offsetHeight);\n    }\n  }, [currentIndex, isAnimating]);\n\n  return _react2.default.createElement(\n    \"div\",\n    { className: _Carousel2.default.carousel },\n    _react2.default.createElement(\n      \"div\",\n      { className: _Carousel2.default.carousel__container },\n      _react2.default.createElement(\n        \"div\",\n        {\n          className: _Carousel2.default.carousel__textWrapper,\n          style: textHeight ? { height: textHeight } : {}\n        },\n        _react2.default.createElement(\n          \"div\",\n          {\n            ref: currentTextRef,\n            className: _Carousel2.default.carousel__text + \" \" + _Carousel2.default.carousel__text__current + (isAnimating ? \" \" + _Carousel2.default.carousel__text__exit : \"\"),\n            style: customTransitionStyles\n          },\n          carouselContent[currentIndex]\n        ),\n        _react2.default.createElement(\n          \"div\",\n          {\n            className: _Carousel2.default.carousel__text + \" \" + _Carousel2.default.carousel__text__next + (isAnimating ? \" \" + _Carousel2.default.carousel__text__enter : \"\"),\n            style: customTransitionStyles\n          },\n          carouselContent[nextIndex]\n        )\n      ),\n      _react2.default.createElement(\"video\", {\n        className: _Carousel2.default.carousel__image,\n        src: \"dist/\" + carouselMedia[currentIndex],\n        autoPlay: true,\n        loop: true,\n        muted: true,\n        playsInline: true\n      })\n    )\n  );\n}\n\nexports.default = Carousel;\n\n//# sourceURL=webpack:///./src/components/Carousel/Carousel.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Carousel = __webpack_require__(/*! ./Carousel.css */ \"./src/components/Carousel/Carousel.css\");\n\nvar _Carousel2 = _interopRequireDefault(_Carousel);\n\nvar _holicReel = __webpack_require__(/*! ../../assets/carousel/holic-reel.mp4 */ \"./src/assets/carousel/holic-reel.mp4\");\n\nvar _holicReel2 = _interopRequireDefault(_holicReel);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Carousel() {\n  var carouselContent = [\"Translucent liquid acrylics\", \"Reflective backlit badges\", \"Quicksand liquid standees\", \"Water activated live prints\", \"Thermal sensitive live prints\"];\n\n  var _useState = (0, _react.useState)(0),\n      _useState2 = _slicedToArray(_useState, 2),\n      currentIndex = _useState2[0],\n      setCurrentIndex = _useState2[1];\n\n  var _useState3 = (0, _react.useState)(1),\n      _useState4 = _slicedToArray(_useState3, 2),\n      nextIndex = _useState4[0],\n      setNextIndex = _useState4[1];\n\n  var _useState5 = (0, _react.useState)(false),\n      _useState6 = _slicedToArray(_useState5, 2),\n      isAnimating = _useState6[0],\n      setIsAnimating = _useState6[1];\n\n  var currentTextRef = (0, _react.useRef)(null);\n  var videoRef = (0, _react.useRef)(null);\n\n  var customTransitionStyles = {\n    transition: isAnimating ? \"transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)\" : \"none\"\n  };\n\n  (0, _react.useEffect)(function () {\n    var timeoutId = void 0;\n    var interval = setInterval(function () {\n      setIsAnimating(true);\n      timeoutId = setTimeout(function () {\n        setCurrentIndex(nextIndex);\n        setNextIndex((nextIndex + 1) % carouselContent.length);\n        setIsAnimating(false);\n      }, 250);\n    }, 4100);\n\n    return function () {\n      clearInterval(interval);\n      clearTimeout(timeoutId);\n    };\n  }, [nextIndex, carouselContent.length]);\n\n  return _react2.default.createElement(\n    \"div\",\n    { className: _Carousel2.default.carousel },\n    _react2.default.createElement(\n      \"div\",\n      { className: _Carousel2.default.carousel__container },\n      _react2.default.createElement(\n        \"div\",\n        { className: _Carousel2.default.carousel__textWrapper },\n        _react2.default.createElement(\n          \"div\",\n          {\n            ref: currentTextRef,\n            className: _Carousel2.default.carousel__text + \" \" + _Carousel2.default.carousel__text__current + (isAnimating ? \" \" + _Carousel2.default.carousel__text__exit : \"\"),\n            style: customTransitionStyles\n          },\n          carouselContent[currentIndex]\n        ),\n        _react2.default.createElement(\n          \"div\",\n          {\n            className: _Carousel2.default.carousel__text + \" \" + _Carousel2.default.carousel__text__next + (isAnimating ? \" \" + _Carousel2.default.carousel__text__enter : \"\"),\n            style: customTransitionStyles\n          },\n          carouselContent[nextIndex]\n        )\n      ),\n      _react2.default.createElement(\"video\", {\n        ref: videoRef,\n        className: _Carousel2.default.carousel__image,\n        src: \"dist/\" + _holicReel2.default,\n        autoPlay: true,\n        loop: true,\n        muted: true,\n        playsInline: true\n      })\n    )\n  );\n}\n\nexports.default = Carousel;\n\n//# sourceURL=webpack:///./src/components/Carousel/Carousel.js?");
 
 /***/ }),
 

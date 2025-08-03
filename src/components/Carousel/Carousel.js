@@ -1,27 +1,21 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./Carousel.css";
-import v1 from "../../assets/carousel/v1.mp4";
-import v2 from "../../assets/carousel/v2.mp4";
-import v3 from "../../assets/carousel/v3.mp4";
-import v4 from "../../assets/carousel/v4.mp4";
-import v5 from "../../assets/carousel/v5.mp4";
+import holicReel from "../../assets/carousel/holic-reel.mp4";
 
 function Carousel() {
   const carouselContent = [
-    "Quicksand liquid acrylics",
-    "Lenticular ticket stubs",
-    "Rotating diorama standees",
-    "Water activated prints",
-    // "Heat sentitive postcards",
+    "Translucent liquid acrylics",
+    "Reflective backlit badges",
+    "Quicksand liquid standees",
+    "Water activated live prints",
+    "Thermal sensitive live prints",
   ];
-  // const carouselMedia = [v1, v2, v3, v5, v4];
-  const carouselMedia = [v1, v2, v3, v5];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [nextIndex, setNextIndex] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [textHeight, setTextHeight] = useState(undefined);
   const currentTextRef = useRef(null);
+  const videoRef = useRef(null);
 
   const customTransitionStyles = {
     transition: isAnimating
@@ -37,8 +31,8 @@ function Carousel() {
         setCurrentIndex(nextIndex);
         setNextIndex((nextIndex + 1) % carouselContent.length);
         setIsAnimating(false);
-      }, 500);
-    }, 3000);
+      }, 250);
+    }, 4100);
 
     return () => {
       clearInterval(interval);
@@ -46,19 +40,10 @@ function Carousel() {
     };
   }, [nextIndex, carouselContent.length]);
 
-  useEffect(() => {
-    if (currentTextRef.current) {
-      setTextHeight(currentTextRef.current.offsetHeight);
-    }
-  }, [currentIndex, isAnimating]);
-
   return (
     <div className={styles.carousel}>
       <div className={styles.carousel__container}>
-        <div
-          className={styles.carousel__textWrapper}
-          style={textHeight ? { height: textHeight } : {}}
-        >
+        <div className={styles.carousel__textWrapper}>
           <div
             ref={currentTextRef}
             className={
@@ -84,8 +69,9 @@ function Carousel() {
           </div>
         </div>
         <video
+          ref={videoRef}
           className={styles.carousel__image}
-          src={`dist/${carouselMedia[currentIndex]}`}
+          src={`dist/${holicReel}`}
           autoPlay
           loop
           muted
