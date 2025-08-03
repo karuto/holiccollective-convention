@@ -1,23 +1,52 @@
 import React from "react";
 import styles from "./Booth.css";
-import booth1 from "../../assets/booth/1.jpg";
-import booth2 from "../../assets/booth/2.jpg";
-import booth3 from "../../assets/booth/3.jpg";
-import booth4 from "../../assets/booth/4.jpg";
-import booth5 from "../../assets/booth/5.jpg";
-import booth6 from "../../assets/booth/6.jpg";
+import fanime1 from "../../assets/booth/fanime1.jpg";
+import fanime2 from "../../assets/booth/fanime2.jpg";
+import ai1 from "../../assets/booth/ai1.jpg";
+import sac1 from "../../assets/booth/sac1.jpg";
+import sac2 from "../../assets/booth/sac2.jpg";
+import stockton1 from "../../assets/booth/stockton1.jpg";
 import Heading from "../Heading/Heading";
 
 function Booth() {
   const content = {
-    title: "Booth setup featuring innovate merch with artist credits",
     images: [
-      { src: booth1, alt: "Booth photo 1" },
-      { src: booth2, alt: "Booth photo 2" },
-      { src: booth3, alt: "Booth photo 3" },
-      { src: booth4, alt: "Booth photo 4" },
-      { src: booth5, alt: "Booth photo 5" },
-      { src: booth6, alt: "Booth photo 6" },
+      {
+        src: sac1,
+        alt: "Booth setup for SacAnime",
+        caption: "10x10 Corner Booth at SacAnime",
+        isFullWidth: false,
+      },
+      {
+        src: sac2,
+        alt: "Booth setup for SacAnime",
+        caption: "10x10 Corner Booth at SacAnime",
+        isFullWidth: false,
+      },
+      {
+        src: ai1,
+        alt: "Booth setup for Anime Impulse",
+        caption: "10x20 Double Booth at Anime Impulse",
+        isFullWidth: true,
+      },
+      {
+        src: stockton1,
+        alt: "Booth setup for StocktonCon",
+        caption: "10x5 Artist Alley Booth at StocktonCon",
+        isFullWidth: true,
+      },
+      {
+        src: fanime1,
+        alt: "Booth setup for FanimeCon",
+        caption: "10x10 Booth at FanimeCon",
+        isFullWidth: false,
+      },
+      {
+        src: fanime2,
+        alt: "Booth setup for FanimeCon",
+        caption: "10x10 Booth at FanimeCon",
+        isFullWidth: false,
+      },
     ],
   };
 
@@ -26,12 +55,23 @@ function Booth() {
       <Heading subtitle="Our conventions" title="booth setup" />
       <div className={styles.booth__grid}>
         {content.images.map((image, index) => (
-          <img
+          <figure
             key={index}
-            src={`dist/${image.src}`}
-            alt={image.alt}
-            className={styles.booth__image}
-          />
+            className={`${styles.booth__item} ${
+              image.isFullWidth
+                ? styles.booth__item_full
+                : styles.booth__item_half
+            }`}
+          >
+            <img
+              src={`dist/${image.src}`}
+              alt={image.alt}
+              className={styles.booth__image}
+            />
+            <figcaption className={styles.booth__caption}>
+              {image.caption}
+            </figcaption>
+          </figure>
         ))}
       </div>
     </section>

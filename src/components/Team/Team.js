@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import styles from "./Team.css";
 import avatarKaruto from "../../assets/avatar-karuto.png";
 import avatarAbu from "../../assets/avatar-abu.jpg";
-import avatarRenbaibai from "../../assets/avatar-renbaibai.jpg";
+// import avatarRenbaibai from "../../assets/avatar-renbaibai.jpg";
 import avatarMochuuu from "../../assets/avatar-mochuuu.jpg";
 import Heading from "../Heading/Heading";
 
@@ -14,7 +14,6 @@ function Team() {
       {
         name: "Karuto",
         role: ["Organizer", "Product Designer"],
-        // role: ["Organizer"],
         avatar: avatarKaruto,
         description:
           "I work with my artist overlords to make sure their beautiful illustrations turn into eye-popping products! As a tech nerd, I love to fiddle and experiment with print and acrylic technologies. I also run the collective and",
@@ -28,13 +27,13 @@ function Team() {
         description:
           "Hi, I'm Abu! With nearly a decade of experience creating fanart and an obsession with Honkai Star Rail, I love gathering feedback from con attendees. I truly believe my art shines the brightest when experienced in person!",
       },
-      {
-        name: "RenBaiBai",
-        role: ["Illustrator", "Product Designer"],
-        avatar: avatarRenbaibai,
-        description:
-          "Multi-fandom artist who loves brainstorming new forms to breathe life into my art. Your husbando can come in all shapes and forms! Genshin, Honkai Star Rail, Love and Deep Space... I love them all! ",
-      },
+      // {
+      //   name: "RenBaiBai",
+      //   role: ["Illustrator", "Product Designer"],
+      //   avatar: avatarRenbaibai,
+      //   description:
+      //     "Multi-fandom artist who loves brainstorming new forms to breathe life into my art. Your husbando can come in all shapes and forms! Genshin, Honkai Star Rail, Love and Deep Space... I love them all! ",
+      // },
       {
         name: "Mochuuu",
         role: ["Illustrator"],

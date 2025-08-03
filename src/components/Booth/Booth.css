@@ -16,6 +16,22 @@
   padding: 1rem;
 }
 
+.booth__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.booth__item_full {
+  grid-column: 1 / -1;
+}
+
+.booth__item_half {
+  grid-column: span 1;
+}
+
 .booth__image {
   width: 100%;
   height: auto;
@@ -28,9 +44,29 @@
   transform: scale(1.02);
 }
 
+.booth__caption {
+  color: #fff;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  font-family: var(--font-family-body);
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .booth__grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .booth__item_full,
+  .booth__item_half {
+    grid-column: 1 / -1;
+  }
+
+  .booth__caption {
+    font-size: 13px;
+    margin-top: 0.5rem;
   }
 }
